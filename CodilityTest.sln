@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilityTest", "CodilityTest\CodilityTest.csproj", "{93885453-85F6-4B56-AB56-980724B0A634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodilityTest.Tests", "CodilityTest.Tests\CodilityTest.Tests.csproj", "{8F182CCF-5DE1-493B-9EB8-41A4AF3ED53A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93885453-85F6-4B56-AB56-980724B0A634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93885453-85F6-4B56-AB56-980724B0A634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93885453-85F6-4B56-AB56-980724B0A634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93885453-85F6-4B56-AB56-980724B0A634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F182CCF-5DE1-493B-9EB8-41A4AF3ED53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F182CCF-5DE1-493B-9EB8-41A4AF3ED53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F182CCF-5DE1-493B-9EB8-41A4AF3ED53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F182CCF-5DE1-493B-9EB8-41A4AF3ED53A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
